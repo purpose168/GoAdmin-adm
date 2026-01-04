@@ -28,7 +28,7 @@
 | adm add user                                                  |
 | adm add permission                                            |
 | adm develop plug -m testplugin -n testplugin                  |
-| adm develop tpl -m=github.com/GoAdminGroup/themes/ngx -n=ngx  |
+| adm develop tpl -m=github.com/purpose168/GoAdmin-themes/ngx -n=ngx  |
 | adm combine css --hash=true --path=./css/ --out=./all.min.css |
 | adm combine js --hash=true --path=./js/ --out=./all.min.js    |
 | adm compile tpl --src ./tmpls/ --dist ./tmpl.go               |
