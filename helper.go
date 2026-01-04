@@ -14,8 +14,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/utils"
 	"github.com/mgutz/ansi"
+	"github.com/purpose168/GoAdmin/modules/utils"
 )
 
 const version = "v1.2.30"

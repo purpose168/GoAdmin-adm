@@ -9,12 +9,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
+	"github.com/purpose168/GoAdmin/modules/db"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	template2 "github.com/GoAdminGroup/go-admin/template"
 	"github.com/mgutz/ansi"
+	"github.com/purpose168/GoAdmin/modules/config"
+	"github.com/purpose168/GoAdmin/modules/language"
+	template2 "github.com/purpose168/GoAdmin/template"
 	"gopkg.in/ini.v1"
 )
 
@@ -174,10 +174,10 @@ func buildProject(cfgFile string) {
 		fmt.Println("- postgresql: " + ansi.Color("https://gitee.com/go-admin/go-admin/raw/master/data/admin.pgsql", "blue"))
 		fmt.Println("- mysql: " + ansi.Color("https://gitee.com/go-admin/go-admin/raw/master/data/admin.sql", "blue"))
 	} else {
-		fmt.Println("- sqlite: " + ansi.Color("https://github.com/GoAdminGroup/go-admin/raw/master/data/admin.db", "blue"))
-		fmt.Println("- mssql: " + ansi.Color("https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.mssql", "blue"))
-		fmt.Println("- postgresql: " + ansi.Color("https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.pgsql", "blue"))
-		fmt.Println("- mysql: " + ansi.Color("https://raw.githubusercontent.com/GoAdminGroup/go-admin/master/data/admin.sql", "blue"))
+		fmt.Println("- sqlite: " + ansi.Color("https://github.com/purpose168/GoAdmin/raw/master/data/admin.db", "blue"))
+		fmt.Println("- mssql: " + ansi.Color("https://raw.githubusercontent.com/purpose168/GoAdmin/master/data/admin.mssql", "blue"))
+		fmt.Println("- postgresql: " + ansi.Color("https://raw.githubusercontent.com/purpose168/GoAdmin/master/data/admin.pgsql", "blue"))
+		fmt.Println("- mysql: " + ansi.Color("https://raw.githubusercontent.com/purpose168/GoAdmin/master/data/admin.sql", "blue"))
 	}
 	fmt.Println()
 	fmt.Println(getWord("2 Execute the following command to run:"))
